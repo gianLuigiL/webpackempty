@@ -1,0 +1,29 @@
+{
+  "name": "d3_",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack-dev-server",
+    "dev": "node server.js",
+    "startall": "concurrently \"npm run watch\" \"npm run dev\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "acorn": "^6.1.1",
+    "clean-webpack-plugin": "^2.0.2",
+    "d3": "^5.9.2",
+    "express": "^4.16.4",
+    "html-webpack-plugin": "^3.2.0",
+    "node-fetch": "^2.4.1"
+  },
+  "devDependencies": {
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.2",
+    "webpack-dev-server": "^3.3.1",
+    "concurrently": "^4.1.0"
+  }
+}
